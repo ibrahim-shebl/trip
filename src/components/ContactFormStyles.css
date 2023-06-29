@@ -1,0 +1,40 @@
+/* Style your components */
+
+
+.from-container {
+    margin: 4rem 6rem;
+    color: #2a2a2a;
+}
+.from-container form {
+    padding-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+}
+.from-container form input {
+    border: 1px solid #2a2a2a;
+    border-radius: .3rem;
+    margin-bottom: 2rem;
+    padding: 0 1rem;
+    height: 3rem;
+}
+.from-container form textarea {
+    border: 1px solid #2a2a2a;
+    border-radius: .3rem;
+    margin-bottom: 2rem;
+    padding: 1rem;
+}
+.from-container form button {
+    display: inline;
+}
+
+@media(max-width: 850px){
+    .from-container {
+        margin: 4rem 2rem;
+    }
+    .from-container form {
+        width: 90%;
+        padding-top: 2rem;
+    }
+}
